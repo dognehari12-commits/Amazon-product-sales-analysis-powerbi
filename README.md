@@ -1,50 +1,66 @@
 🚀 Amazon Sales Analysis Dashboard
 📌 Project Overview
 
-This project focuses on analyzing Amazon product sales data to extract meaningful insights using Power BI. The goal is to understand sales performance, product demand, and customer engagement through interactive dashboards.
+This project focuses on analyzing Amazon product sales data to extract meaningful insights using Power BI. 
+
+The goal is to understand sales performance, product demand, and customer engagement through interactive dashboards.
 
 🎯 Problem Statement
 
 With a large volume of products sold on Amazon, it becomes difficult to:
 
 Track overall sales performance
+
 Identify high-performing product categories
+
 Understand customer purchasing behavior
+
 Detect seasonal sales trends
+
 💡 Proposed Solution
 
 The solution involves building an interactive dashboard that:
 
 Analyzes sales data
+
 Tracks product performance
+
 Evaluates customer engagement
+
 Supports data-driven decision-making
+
 🛠️ Tech Stack
-Excel (Data Cleaning & Preparation)
+
+Excel (Data Cleaning & Preparation
+
 Power BI (Data Visualization & Dashboard)
+
 DAX (Calculations & Measures)
 
 📂 Datasets
 
 - <a href="https://docs.google.com/spreadsheets/d/13kn4oOwsl_JyOFjx7gC4wXveOxfW_cgG/edit?gid=621652416#gid=621652416">Dataset</a>
 
-
-
-➕ Additional Derived Columns:
-Month
-Week Number
-Quarter
-Year
 🧹 Data Preprocessing Steps
+
 Handling missing values
+
 Removing duplicates
+
 Formatting date columns
+
 Creating calculated fields:
+
 YTD Sales
+
 QTD Sales
+
 Total Products Sold
+
 Total Reviews
+
 📊 Key Metrics (DAX Measures)
+
 YTD Sales = TOTALYTD(SUM(Sales[Sales Amount]), Sales[Date])
 
 QTD Sales = TOTALQTD(SUM(Sales[Sales Amount]), Sales[Date])
@@ -52,51 +68,88 @@ QTD Sales = TOTALQTD(SUM(Sales[Sales Amount]), Sales[Date])
 Total Products Sold = SUM(Sales[Products Sold])
 
 Total Reviews = SUM(Sales[Reviews])
+
 📈 Dashboard Features
+
 🔹 KPI Cards
+
 YTD Sales
+
 QTD Sales
+
 Total Products Sold
+
 Total Reviews
+
 🔹 Visualizations
+
 Monthly Sales Trend 📊
+
 Weekly Sales Trend 📉
+
 Sales by Product Category 📦
+
 Top 5 Products by Sales 🏆
+
 Top 5 Products by Reviews ⭐
+
 🔹 Filters (Slicers)
+
 Product Category
+
 Quarter
+
 🖼️ Dashboard Preview
 
-👉 (Yaha image paste kare)
 
-![Dashboard Screenshot](images/dashboard.png)
+<img width="1324" height="741" alt="Screenshot 2026-03-24 045006" src="https://github.com/user-attachments/assets/010c903c-82fb-4a9c-b70c-ba196fa20853" />
+
+<img width="1327" height="744" alt="Screenshot 2026-03-24 045204" src="https://github.com/user-attachments/assets/e99c3d83-943d-4d21-bd22-61bfd89c2698" />
+
+<img width="1325" height="742" alt="Screenshot 2026-03-24 045307" src="https://github.com/user-attachments/assets/4e977abe-4784-45d4-9b38-4e3391d338bd" />
+
+
+
 ⚙️ Project Workflow
+
 Data Collection
+
 Data Cleaning & Transformation
+
 Data Modeling in Power BI
+
 DAX Calculations
+
 Dashboard Creation
+
 Deployment
+
 🗂️ Project Structure
+
 Amazon-Sales-Analysis/
 │
 ├── data/
-│   └── amazon_sales_data.xlsx
-│
+
+└── amazon_sales_data.xlsx
+
 ├── dashboard/
-│   └── Amazon_Sales_Dashboard.pbix
-│
+   └── Amazon_Sales_Dashboard.pbix
+
 ├── images/
-│   └── dashboard.png
-│
+ └── dashboard.png
+
 ├── README.md
+
 └── presentation/
-    └── project_presentation.pdf
+
+ └── project_presentation.pdf
+    
 🚀 Deployment
+
 Dashboard published on Power BI Service
+
 Accessible via web/mobile
+
 Interactive and user-friendly
 
 👉 (Yaha Power BI link add karna)
