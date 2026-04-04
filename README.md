@@ -1,4 +1,5 @@
 🚀 Amazon Sales Analysis Dashboard
+
 📌 Project Overview
 
 This project focuses on analyzing Amazon product sales data to extract meaningful insights using Power BI. 
@@ -126,23 +127,12 @@ Deployment
 
 🗂️ Project Structure
 
-Amazon-Sales-Analysis/
-│
-├── data/
 
-└── amazon_sales_data.xlsx
+<img width="1536" height="1024" alt="Project directory structure diagram (1)" src="https://github.com/user-attachments/assets/77b1c548-af81-491c-8384-b0082885f490" />
 
-├── dashboard/
-   └── Amazon_Sales_Dashboard.pbix
+    
 
-├── images/
- └── dashboard.png
 
-├── README.md
-
-└── presentation/
-
- └── project_presentation.pdf
     
 🚀 Deployment
 
@@ -159,6 +149,7 @@ Identified top-performing products and categories
 Observed seasonal sales patterns
 Analyzed customer engagement via reviews
 Improved decision-making using data
+
 ✅ Conclusion
 
 The dashboard provides:
